@@ -1608,7 +1608,7 @@ async def cb_about(bot, update: CallbackQuery):
         [
             InlineKeyboardButton
                 (
-                    "My Dev ⚡", url="https://t.me/malayalammoviesmmms"
+                    "My Dev ⚡", url="https://t.me/MMCINEMACHAKKU"
                 ),
                 
             InlineKeyboardButton
@@ -1639,15 +1639,15 @@ async def callback_data(bot, update: CallbackQuery):
 
     if query_data == "start":
         buttons = [[
-            InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/malayalammoviesmmms'),
-            InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎🧾', url ='https://t.me/LXRBOTSGROUP')
+            InlineKeyboardButton('👨‍💼𝙼𝚢 𝙳𝚎𝚟', url='https://t.me/cinemaclubcc'),
+            InlineKeyboardButton('𝚂𝚘𝚞𝚛𝚌𝚎 𝙲𝚘𝚍𝚎🧾', url ='https://t.me/MMCINEMACHAKKU')
         ],[
             InlineKeyboardButton('⚙️𝙷𝚎𝚕𝚙⚙️', callback_data="help")
         ],[
-            InlineKeyboardButton('🗣️𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/LXRBOTSGROUP'),
-            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜🤖', url='https://t.me/LXRYOUTUBERYT')
+            InlineKeyboardButton('🗣️𝙰𝚗𝚢 𝙳𝚘𝚞𝚋𝚝', url='https://t.me/MMCINEMACHAKKU'),
+            InlineKeyboardButton('𝚄𝚙𝚍𝚊𝚝𝚎𝚜🤖', url='https://t.me/MMCINEMACHAKKU')
         ],[
-            InlineKeyboardButton('🍂 REPO 🍂️', url='https://t.me/LXRBOTSGROUP')
+            InlineKeyboardButton('🍂 REPO 🍂️', url='https://t.me/MMCINEMACHAKKU')
         ]]
     
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1680,10 +1680,10 @@ async def callback_data(bot, update: CallbackQuery):
 
     elif query_data == "about": 
         buttons = [[
-            InlineKeyboardButton('👤 LXR YOUTUBER AMAL', url='https://t.me/LXRBOTSGROUP'),
-            InlineKeyboardButton('Support 👤', url='https://t.me/LXRBOTSGROUP')
+            InlineKeyboardButton('OWNER❤', url='https://t.me/cinemaclubcc'),
+            InlineKeyboardButton('♻️GROUP', url='https://t.me/MMCINEMACHAKKU')
         ],[
-            InlineKeyboardButton('🍂 REPO 🍂', url='https://t.me/LXRYOUTUBERYT')
+            InlineKeyboardButton('🎥CHANNEL', url='https://t.me/malayali00l')
         ],[
             InlineKeyboardButton('🏠 Home', callback_data='start'),
             InlineKeyboardButton('Close 🔐', callback_data='close')
